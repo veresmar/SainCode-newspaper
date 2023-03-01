@@ -1,0 +1,87 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: initial;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 77%;
+}
+
+h1 {
+  font-family: "MonotypeOldEnglishTextW01", Times, serif;
+  font-size: 5em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgb(210, 209, 209);
+}
+
+p {
+  line-height: 1.3em;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(88, 86, 86);
+  margin: 0;
+}
+
+a {
+  color: #070707;
+  font-weight: 600;
+}
+
+nav {
+  display: flex;
+  text-transform: uppercase;
+}
+nav a {
+  margin-right: 1em;
+  text-decoration: none;
+  color: #070707;
+}
+nav a:hover {
+  color: #070707;
+}
+
+.three-columns {
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.three-columns .column {
+  display: flex;
+  flex-direction: column;
+  width: 36em;
+  margin-right: 1em;
+  border-right: 2px solid rgb(210, 209, 209);
+}
+.three-columns .column:last-child {
+  border: none;
+}
+
+.two-columns {
+  display: flex;
+  margin-bottom: 4em;
+}
+.two-columns .column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1em;
+  border-right: 2px solid rgb(210, 209, 209);
+}
+.two-columns .column:last-child {
+  border: none;
+}
+
+@font-face {
+  font-family: "MonotypeOldEnglishTextW01";
+  src: url("//db.onlinewebfonts.com/t/be6ee7dae05b1862ef6f63d5e2145706.eot");
+  src: url("//db.onlinewebfonts.com/t/be6ee7dae05b1862ef6f63d5e2145706.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/be6ee7dae05b1862ef6f63d5e2145706.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/be6ee7dae05b1862ef6f63d5e2145706.woff") format("woff"), url("//db.onlinewebfonts.com/t/be6ee7dae05b1862ef6f63d5e2145706.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/be6ee7dae05b1862ef6f63d5e2145706.svg#MonotypeOldEnglishTextW01") format("svg");
+}
+
+/*# sourceMappingURL=index.css.map */
